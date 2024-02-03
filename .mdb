@@ -1,0 +1,8 @@
+{
+  "projectName": "styzbot-website",
+  "meta": {
+    "type": "frontend"
+  },
+  "packageManager": "npm",
+  "hash": "09e05fbe"
+}

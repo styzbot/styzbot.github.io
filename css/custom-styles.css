@@ -1,0 +1,70 @@
+/* #styzbot-navbar {
+    height:60px;
+} */
+
+#styzbot-container {
+  padding-top: 60px;
+  padding-bottom: 60px
+}
+
+h1:hover {
+  background-position: -120% 0;
+}
+
+
+#styzbot-footer-wrapper {
+  background-color: rgba(0, 0, 0, 0.05);
+  height: 60px;
+  margin-top: -60px;
+}
+
+
+.navbar-element-wrapper:hover {
+  background-color: #ffffff;
+  color: hsl(218, 55%, 49%);
+}
+
+.bg-mobile-btn {
+  background-color: #303030;
+}
+
+.card-body {
+  z-index: 1;
+}
+
+.mask {
+  z-index: 2;
+}
+
+.styzbot-card-icon {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  color: hsla(0, 0%, 0%, 0.2);
+  z-index: 0;
+  font-size: 5em;
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+  .styzbot-card-icon {
+    font-size: 6em;
+  }
+
+}
+
+
+[data-mdb-theme=light] .styzbot-card-icon {
+  color: hsla(218, 55%, 49%,0.1);
+}
+
+p {
+  font-family: 'BioRhyme', serif;
+
+}
+
+h5 {
+  font-family: 'BioRhyme', serif;
+  font-weight: 800
+}

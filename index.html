@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en" data-mdb-theme="dark">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>Home</title>
+  <!-- MDB icon -->
+  <link rel="icon" href="img/styzUp-noBg.png" type="image/x-icon" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=BioRhyme:wght@400;800&display=swap" rel="stylesheet">
+  <!-- MDB -->
+  <link rel="stylesheet" href="css/mdb.min.css" />
+  <!-- My custom styles -->
+  <link rel="stylesheet" href="css/custom-styles.css" />
+
+  <script>
+    const isSystemThemeSetToDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+    if (isSystemThemeSetToDark) {
+      document.documentElement.dataset.mdbTheme = "dark";
+    };
+  </script>
+</head>
+
+
+
+<body>
+  <!-- Start your project here-->
+  <!-- Navbar -->
+  <nav id="styzbot-navbar" class="navbar navbar-expand-lg navbar-light bg-body-tertiary fixed-top">
+    <!-- Container wrapper -->
+    <div class="container-fluid">
+      <!-- Toggle button -->
+      <button data-mdb-collapse-init class="navbar-toggler pe-5" type="button" data-mdb-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars fa-lg"></i>
+      </button>
+
+      <!-- Desktop logo -->
+      <div class="navbar-brand mt-2 mt-lg-0 d-none d-lg-inline-block">
+        <img class="" src="img/styzUp-noBg.png" height="50" loading="lazy" />
+      </div>
+
+
+      <!-- Mobile logo -->
+      <a class="navbar-brand d-inline-block d-lg-none mx-auto me-0" href="#">
+        <img class="" src="img/styzUp-noBg.png" height="30" loading="lazy" />
+      </a>
+
+
+      <!--Desktop links-->
+      <div class="d-none d-lg-inline-block">
+        <ul class="navbar-nav me-auto mb-2 ms-1 mb-lg-0">
+
+          <li class="nav-item ms-0 ms-lg-5">
+            <div class="d-flex align-items-center justify-content-center mb-2 mb-lg-0">
+              <a href="https://discord.com/api/oauth2/authorize?client_id=1176269444117434410&permissions=8&scope=applications.commands%20bot" type="button"
+                class="btn btn-lg btn-primary  btn-floating navbar-element-wrapper d-none d-lg-block"
+                data-mdb-ripple-init data-mdb-ripple-init data-mdb-ripple-color="primary"
+                data-mdb-ripple-duration="1000ms" data-mdb-ripple-radius="0" data-mdb-ripple-centered="true"
+                data-mdb-tooltip-init data-mdb-placement="bottom" data-mdb-custom-class="d-none d-lg-block"
+                title="Add Styz">
+                <i class="fas fa-plus fa-2x"></i>
+              </a>
+              <span class="ms-2 d-inline-block d-lg-none lead fw-bold">Add Styz</span>
+            </div>
+          </li>
+
+
+          <li class="nav-item ms-0 ms-lg-5">
+            <div class="d-flex align-items-center justify-content-center mb-2 mb-lg-0">
+              <a href="docs.html" type="button"
+                class="btn  btn-lg btn-primary  btn-floating navbar-element-wrapper d-none d-lg-block"
+                data-mdb-ripple-init data-mdb-ripple-init data-mdb-tooltip-init data-mdb-ripple-color="primary"
+                data-mdb-ripple-duration="1000ms" data-mdb-ripple-radius="0" data-mdb-ripple-centered="true"
+                data-mdb-placement="bottom" data-mdb-custom-class="d-none d-lg-block" title="Docs">
+                <i class="fas fa-book fa-2x"></i>
+            </a>
+              <span class="ms-2 d-inline-block d-lg-none lead fw-bold">Docs</span>
+            </div>
+          </li>
+
+
+          <li class="nav-item ms-0 ms-lg-5">
+            <div class="d-flex align-items-center justify-content-center mb-2 mb-lg-0">
+              <a href="https://discord.com/invite/zKCSRvprZJ" type="button"
+                class="btn  btn-lg btn-primary  btn-floating tool navbar-element-wrapper d-none d-lg-block"
+                data-mdb-ripple-init data-mdb-ripple-init data-mdb-tooltip-init data-mdb-ripple-color="primary"
+                data-mdb-ripple-duration="1000ms" data-mdb-ripple-radius="0" data-mdb-ripple-centered="true"
+                data-mdb-placement="bottom" data-mdb-custom-class="d-none d-lg-block" title="Support"> <i
+                  class="fas fa-headphones-simple fa-2x"></i>
+            </a>
+              <span class="ms-2 d-inline-block d-lg-none lead fw-bold">Support</span>
+            </div>
+
+          </li>
+        </ul>
+      </div>
+
+      <!-- Darkmode switcher -->
+      <div class="ms-auto d-inline-block">
+        <li class="nav-item align-items-center d-flex">
+          <i class="fas fa-sun"></i>
+          <!-- Default switch -->
+          <div class="ms-2 form-check form-switch">
+            <input class="form-check-input" type="checkbox" role="switch" id="themingSwitcher" />
+          </div>
+          <i class="fas fa-moon"></i>
+        </li>
+      </div>
+
+      <!--Mobile links-->
+      <div class="d-block d-lg-none w-100">
+        <div class="collapse navbar-collapse pt-4" id="navbarSupportedContent">
+
+          <ul class="navbar-nav me-auto mb-2 ms-1 mb-lg-0">
+
+            <li class="nav-item ms-0 ms-lg-5 rounded-3 pb-4">
+
+              <button type="button" class="btn btn-lg btn-dark bg-mobile-btn btn-block " data-mdb-ripple-init
+                data-mdb-ripple-init data-mdb-ripple-color="primary" data-mdb-ripple-duration="1000ms"
+                data-mdb-ripple-radius="0" data-mdb-ripple-centered="true">
+                Add Styz
+              </button>
+            </li>
+
+
+            <li class="nav-item ms-0 ms-lg-5 rounded-3 pb-4">
+
+              <button type="button" class="btn btn-lg btn-dark bg-mobile-btn btn-block " data-mdb-ripple-init
+                data-mdb-ripple-init data-mdb-ripple-color="primary" data-mdb-ripple-duration="1000ms"
+                data-mdb-ripple-radius="0" data-mdb-ripple-centered="true">
+                Docs
+              </button>
+            </li>
+
+
+            <li class="nav-item ms-0 ms-lg-5 rounded-3 pb-4">
+
+              <button type="button" class="btn btn-lg btn-dark bg-mobile-btn btn-block " data-mdb-ripple-init
+                data-mdb-ripple-init data-mdb-ripple-color="primary" data-mdb-ripple-duration="1000ms"
+                data-mdb-ripple-radius="0" data-mdb-ripple-centered="true">
+                Support
+              </button>
+            </li>
+
+
+          </ul>
+        </div>
+        <!-- Left links -->
+      </div>
+      <!-- Mobile Collapsible wrapper -->
+
+
+
+    </div>
+    <!-- Container wrapper -->
+  </nav>
+  <!-- Navbar -->
+
+
+
+
+
+
+
+  <div id="styzbot-container" class="container min-vh-100 d-flex align-content-center flex-wrap">
+
+
+
+    <div class="w-100">
+
+
+      <div class="row">
+        <div class="col-md my-2 hover-overlay styzbot-container-element ">
+          <div class="card h-100">
+            <i class="fas fa-wrench fa-4x styzbot-card-icon"></i>
+            <div class="card-body">
+              <h5 class="card-title">Moderation</h5>
+              <p class="card-text">Smoothly manage your server space</p>
+            </div>
+            <div class="mask rounded-3"
+              style="background: linear-gradient(45deg,hsla(228, 57%, 49%, 0.2),hsla(0, 0%, 100%, 0.1) 100%);"></div>
+
+
+          </div>
+        </div>
+        <div class="col-md my-2 hover-overlay styzbot-container-element ">
+          <div class="card h-100">
+            <i class="fas fa-comment styzbot-card-icon"></i>
+            <div class="card-body">
+              <h5 class="card-title">Welcome Messages</h5>
+              <p class="card-text">Comfy user experience made easy</p>
+              <div class="mask rounded-3"
+                style="background: linear-gradient(45deg,hsla(228, 57%, 49%, 0.2),hsla(0, 0%, 100%, 0.1) 100%);"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md my-2 hover-overlay styzbot-container-element ">
+
+          <div class="card h-100">
+            <i class="fas fa-face-grin-squint-tears styzbot-card-icon"></i>
+            <div class="card-body">
+              <h5 class="card-title">4Fun</h5>
+              <p class="card-text">Commands for fun, have fun lol</p>
+              <div class="mask rounded-3"
+                style="background: linear-gradient(45deg,hsla(228, 57%, 49%, 0.2),hsla(0, 0%, 100%, 0.1) 100%);"></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+      <div class="row">
+        <div class="col-md my-2 hover-overlay styzbot-container-element  ">
+          <div class="card h-100">
+            <i class="fas fa-book-skull styzbot-card-icon"></i>
+            <div class="card-body">
+              <h5 class="card-title">Anti-Invite</h5>
+              <p class="card-text">Prevent unwanted Discord entries</p>
+              <div class="mask rounded-3"
+                style="background: linear-gradient(45deg,hsla(228, 57%, 49%, 0.2),hsla(0, 0%, 100%, 0.1) 100%);"></div>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md my-2 hover-overlay styzbot-container-element ">
+          <div class="card h-100">
+            <i class="fas fa-user-astronaut styzbot-card-icon"></i>
+            <div class="card-body">
+              <h5 class="card-title">Autoroles</h5>
+              <p class="card-text">Give roles to your users</p>
+              <div class="mask rounded-3"
+                style="background: linear-gradient(45deg,hsla(228, 57%, 49%, 0.2),hsla(0, 0%, 100%, 0.1) 100%);"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md my-2 hover-overlay styzbot-container-element ">
+          <div class="card h-100">
+            <i class="fas fa-coins styzbot-card-icon"></i>
+            <div class="card-body">
+              <h5 class="card-title">Global Economy</h5>
+              <p class="card-text">Get money from users for unbans</p>
+              <div class="mask rounded-3"
+                style="background: linear-gradient(45deg,hsla(228, 57%, 49%, 0.2),hsla(0, 0%, 100%, 0.1) 100%);"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+
+  </div>
+
+
+  <!-- Footer -->
+  <footer class="text-center text-lg-start bg-body-tertiary text-muted">
+
+    <!-- Copyright -->
+    <div id="styzbot-footer-wrapper" class="text-center d-flex align-content-center flex-wrap">
+      <div class="w-100">
+        © 2024 Copyright:
+        <a class="text-reset fw-bold" href="styz.online">styz.online</a>
+      </div>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+
+  <!-- End your project here-->
+
+  <!-- MDB -->
+  <script type="text/javascript" src="js/mdb.umd.min.js"></script>
+
+
+  <!-- Custom scripts -->
+  <script type="text/javascript">
+    const themeStitcher = document.getElementById("themingSwitcher");
+
+    // set toggler position based on system theme
+    if (isSystemThemeSetToDark) {
+      themeStitcher.checked = true;
+    }
+
+    // add listener to theme toggler
+    themeStitcher.addEventListener("change", (e) => {
+      toggleTheme(e.target.checked);
+    });
+
+    const toggleTheme = (isChecked) => {
+      const theme = isChecked ? "dark" : "light";
+
+      document.documentElement.dataset.mdbTheme = theme;
+    }
+
+    // add listener to toggle theme with Shift + D
+    document.addEventListener("keydown", (e) => {
+      if (e.shiftKey && e.key === "D") {
+        themeStitcher.checked = !themeStitcher.checked;
+        toggleTheme(themeStitcher.checked);
+      }
+    });
+  </script>
+</body>
+
+</html>
