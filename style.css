@@ -311,16 +311,13 @@ header {
 .feature7 i,
 .feature7 h4,
 .feature7 .cta {
-    color: #cecece;
+    color: #9e9e9e;
 }
 
 .feature7:hover {
-    border: 2px solid #cecece;
+    border: 2px solid #9e9e9e;
 }
 
-img {
-    border-radius: 5%;
-  }
 
 
 .feature2 i,
@@ -355,6 +352,9 @@ img {
     align-self: flex-end;
 }
 
+img {
+    border-radius: 5%;
+  }
 /* features end */
 
 /* commands */
