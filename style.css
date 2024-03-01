@@ -202,18 +202,18 @@ header {
 
 .btn-premium {
     cursor: pointer;
-    color: var(--heading-color);
+    color: #ffc508;
     font-size: 16px;
     letter-spacing: 2px;
     text-transform: uppercase;
     padding: 10px 30px;
     border-radius: 5px;
-    background-color: var(--main-color);
+    background-color: #ffc508;
     transition: .35s;
 }
 
 .btn-premium:hover {
-    background-color: var(--main-hover-color);
+    background-color: #ffd608;
 }
 
 ::selection {
