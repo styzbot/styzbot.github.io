@@ -358,6 +358,16 @@ header {
     border: 2px solid #9c42ca;
 }
 
+.feature15 i,
+.feature15 h4,
+.feature15 .cta {
+    color: #d43c91;
+}
+
+.feature15:hover {
+    border: 2px solid #d43c91;
+}
+
 .feature .cta span {
     font-size: 0.6rem;
 }
