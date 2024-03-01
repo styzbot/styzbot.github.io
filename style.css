@@ -308,15 +308,16 @@ header {
     border: 2px solid #42b7ca;
 }
 
-.feature7 i,
-.feature7 h4,
-.feature7 .cta {
+.feature12 i,
+.feature12 h4,
+.feature12 .cta {
     color: #0093f5;
 }
 
-.feature7:hover {
+.feature12:hover {
     border: 2px solid #0093f5;
 }
+
 
 
 .feature2 i,
