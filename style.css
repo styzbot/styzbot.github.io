@@ -210,7 +210,7 @@ header {
     text-transform: uppercase;
     padding: 10px 30px;
     border-radius: 5px;
-    background-color: var(--bg-premium2);
+    background-color: var(--main-color);
     transition: .35s;
 }
 
