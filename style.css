@@ -204,7 +204,7 @@ header {
 
 .btn-premium {
     cursor: pointer;
-    color: var(--heading-color);
+    color: var(--bg-premium);
     font-size: 16px;
     letter-spacing: 2px;
     text-transform: uppercase;
