@@ -311,11 +311,11 @@ header {
 .feature7 i,
 .feature7 h4,
 .feature7 .cta {
-    color: #bebebe;
+    color: #cecece;
 }
 
 .feature7:hover {
-    border: 2px solid #bebebe;
+    border: 2px solid #cecece;
 }
 
 img {
