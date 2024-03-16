@@ -219,6 +219,34 @@ header {
     background-color: var(--bg-premium2);
 }
 
+.btn-premium {
+    margin-right: 40px; /* Zmniejszam margines z 20px do 10px */
+}
+
+.btn-area {
+    margin-right: -220px; /* Dodaję nowy margines, aby zmniejszyć odstęp */
+}
+
+/* Dostosowanie przycisków dla telefonów */
+@media only screen and (max-width: 600px) {
+    .btn-premium,
+    .btn-area {
+        font-size: 16px; /* Dostosowanie wielkości czcionki */
+        padding: 5px 15px; /* Dostosowanie wypełnienia */
+    }
+}
+
+@media (max-width: 600px) {
+    .btn-premium {
+        margin-right: 90px; /* Przesunięcie przycisku w lewo */
+    }
+    .btn-area {
+        margin-left: 90px; /* Przesunięcie przycisku w lewo */
+    }
+}
+
+
+
 
 ::selection {
     color: #fff;
@@ -363,12 +391,51 @@ header {
 .feature15 i,
 .feature15 h4,
 .feature15 .cta {
-    color: #d43c91;
+    color: #5e5e5e;
 }
 
 .feature15:hover {
-    border: 2px solid #d43c91;
+    border: 2px solid #b8b8b8;
 }
+
+
+.feature i,
+.feature1 i,
+.feature12 i,
+.feature2 i,
+.feature3 i,
+.feature15 i {
+    font-size: 1.8rem;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons a {
+    margin: 0 5px; 
+    color: var(--nav-text-color);
+    font-size: 24px; 
+}
+
+.social-icons a:hover {
+    color: var(--nav-text-hover-color);
+}
+
+.social-icons a {
+    margin: 0 5px; 
+    color: var(--nav-text-color);
+    font-size: 24px; 
+    transition: transform 0.3s ease; 
+}
+
+.social-icons a:hover {
+    transform: scale(1.2); /* Powiększ ikonę o 20% */
+    color: var(--nav-text-hover-color);
+}
+
+
 
 .feature .cta span {
     font-size: 0.6rem;
