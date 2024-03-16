@@ -238,7 +238,7 @@ header {
 
 @media (max-width: 600px) {
     .btn-premium {
-        margin-right: 90px; /* Przesunięcie przycisku w lewo */
+        margin-right: 110px; /* Przesunięcie przycisku w lewo */
     }
     .btn-area {
         margin-left: 90px; /* Przesunięcie przycisku w lewo */
