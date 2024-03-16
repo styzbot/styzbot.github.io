@@ -212,11 +212,13 @@ header {
     border-radius: 5px;
     background-color: var(--bg-premium2);
     transition: .35s;
+    margin-right: 20px; /* Adjust this value as needed */
 }
 
 .btn-premium:hover {
     background-color: var(--bg-premium2);
 }
+
 
 ::selection {
     color: #fff;
