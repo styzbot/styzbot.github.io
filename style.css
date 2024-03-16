@@ -629,6 +629,21 @@ footer {
     color: white;
 }
 
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    margin-right: 10px;
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: var(--main-hover-color);
+}
+
 /* footer end */
 /* @ */
 @keyframes animate {
