@@ -245,6 +245,13 @@ header {
     }
 }
 
+@media screen and (max-width: 600px) {
+    .btn-area,
+    .btn-premium {
+        display: block;
+        margin-bottom: 10px; /* Adjust margin as needed */
+    }
+}
 
 
 
