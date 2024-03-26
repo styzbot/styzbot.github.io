@@ -718,6 +718,10 @@ footer {
     color: var(--main-hover-color);
 }
 
+.text9{
+   text-align:center;
+}
+
 /* footer end */
 /* @ */
 @keyframes animate {
