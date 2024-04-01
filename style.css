@@ -398,11 +398,11 @@ header {
 .feature15 i,
 .feature15 h4,
 .feature15 .cta {
-    color: #5e5e5e;
+    color: #960000;
 }
 
 .feature15:hover {
-    border: 2px solid #b8b8b8;
+    border: 2px solid #b50202;
 }
 
 
