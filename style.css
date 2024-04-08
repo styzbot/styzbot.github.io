@@ -475,7 +475,8 @@ img {
 }
 
 .categorys span {
-    padding: 22px 25px;
+    padding: 7px 25px;
+    margin-right: 20px; 
     font-size: 18px;
     font-weight: 500;
     cursor: pointer;
