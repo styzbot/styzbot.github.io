@@ -467,16 +467,19 @@ img {
     justify-content: center;
 }
 
+
+
 .wrapper .categorys {
     display: flex;
     max-width: 720px;
     width: 100%;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap; /* Dodaj flex-wrap */
 }
 
 .categorys span {
     padding: 7px 25px;
-    margin-right: 20px; 
+    margin: 5px; /* Dodaj margines między kategoriami */
     font-size: 18px;
     font-weight: 500;
     cursor: pointer;
@@ -485,6 +488,7 @@ img {
     border: 2px solid var(--main-color);
     transition: all 0.3s ease;
 }
+
 
 .categorys span.active,
 .categorys span:hover {
