@@ -168,23 +168,46 @@ header {
 
 .nav-area {
     list-style: none;
+    text-align: center; /* Dodajemy text-align, aby przyciski były wyśrodkowane */
 }
 
 .nav-area li {
     display: inline-block;
-    padding: 0 15px;
+    padding: 0 1em; /* Używamy jednostki względnej, np. em, zamiast px */
     text-transform: uppercase;
 }
 
 .nav-area li a {
     transition: .3s;
     color: var(--nav-text-color);
-    font-size: 17px;
+    font-size: 1em; /* Używamy jednostki względnej do definiowania rozmiaru czcionki */
 }
 
 .nav-area li a:hover {
     color: var(--nav-text-hover-color);
 }
+
+/* Media queries */
+@media screen and (max-width: 768px) {
+    .nav-area li {
+        padding: 0 0.5em; /* Dalsze zmniejszenie odstępu dla mniejszych ekranów */
+    }
+
+    .nav-area li a {
+        font-size: 0.9em; /* Dalsze zmniejszenie rozmiaru czcionki */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .nav-area li {
+        padding: 0 0.3em; /* Dalsze zmniejszenie odstępu dla jeszcze mniejszych ekranów */
+    }
+
+    .nav-area li a {
+        font-size: 0.8em; /* Dalsze zmniejszenie rozmiaru czcionki */
+    }
+}
+
 
 .btn-area {
     cursor: pointer;
